@@ -14,7 +14,7 @@ public class FelineTest {
         // Arrange
         String expected = "Кошачьи";
         // Assert
-        Assert.assertEquals("Кошачьи", feline.getFamily());
+        Assert.assertEquals(expected, feline.getFamily());
     }
 
     @Test
